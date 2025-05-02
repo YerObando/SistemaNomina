@@ -1,0 +1,88 @@
+﻿@model IEnumerable<SistemaNomina.ISR>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.anio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.limite_inferior)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.limite_superior)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.porcentaje)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.exceso)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.credito_hijo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.credito_conyuge)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.descripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha_creacion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha_actualizacion)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.anio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.limite_inferior)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.limite_superior)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.porcentaje)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.exceso)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.credito_hijo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.credito_conyuge)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.descripcion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fecha_creacion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fecha_actualizacion)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id_isr }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id_isr }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id_isr })
+        </td>
+    </tr>
+}
+
+</table>

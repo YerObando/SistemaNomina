@@ -1,0 +1,320 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewBag.Title - SISTEMA WEB PARA LA GESTIÓN DE RECURSOS HUMANOS Y PAGO DE NÓMINA</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f1f9fc; /* Fondo celeste pastel */
+        }
+
+        .wrapper {
+            display: flex;
+            flex: 1;
+        }
+
+        .sidebar {
+            width: 240px;
+            background-color: #e0f7fa; /* Celeste pastel */
+            color: #4f4f4f; /* Gris oscuro para texto */
+            height: 100vh;
+            overflow-y: auto;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+            .sidebar h5 {
+                padding: 16px;
+                border-bottom: 1px solid #b2ebf2; /* Celeste más suave */
+                background-color: #b2ebf2; /* Celeste más suave */
+                color: #00796b; /* Verde oscuro */
+            }
+
+            .sidebar a {
+                color: #4f4f4f;
+                padding: 12px 20px;
+                display: block;
+                text-decoration: none;
+                transition: background-color 0.3s ease, color 0.3s ease;
+            }
+
+                .sidebar a:hover {
+                    background-color: #80deea; /* Celeste más fuerte */
+                    color: #ffffff;
+                }
+
+            .sidebar .collapse a {
+                padding-left: 40px;
+                background-color: #80deea; /* Celeste más fuerte */
+            }
+
+                .sidebar .collapse a:hover {
+                    background-color: #4dd0e1; /* Celeste más intenso */
+                }
+
+        .content {
+            flex: 1;
+            padding: 30px;
+            background-color: #ffffff; /* Fondo blanco */
+        }
+
+        .page-template {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+        }
+
+        footer {
+            border-top: 1px solid #ddd;
+            background-color: #f1f9fc; /* Celeste pastel */
+            padding: 15px;
+        }
+
+        .btn-custom {
+            background-color: #90a4ae; /* Gris pastel */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-custom:hover {
+                background-color: #607d8b; /* Gris más fuerte */
+            }
+
+        .btn-outline-custom {
+            border-color: #90a4ae;
+            color: #90a4ae;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+            .btn-outline-custom:hover {
+                background-color: #90a4ae;
+                color: white;
+            }
+
+            .btn-custom:focus, .btn-outline-custom:focus {
+                outline: none;
+                box-shadow: 0 0 5px rgba(144, 164, 174, 0.5);
+            }
+
+        header {
+            background-color: #cfd8dc; /* Gris pastel */
+            color: #37474f; /* Gris oscuro */
+            padding: 15px 30px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+            header h4 {
+                margin: 0;
+                font-weight: bold;
+            }
+
+        .header-actions a {
+            color: #37474f;
+        }
+
+            .header-actions a:hover {
+                color: #cfd8dc;
+            }
+
+        footer small {
+            color: #757575; /* Gris oscuro */
+        }
+
+        .btn-crear {
+            background-color: #81c784;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 6px 12px;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-crear:hover {
+                background-color: #66bb6a;
+                color: white;
+            }
+
+        .btn-editar {
+            background-color: #ffca28;
+            color: #424242;
+            border: none;
+            border-radius: 8px;
+            padding: 6px 12px;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-editar:hover {
+                background-color: #ffb300;
+                color: white;
+            }
+
+        .btn-eliminar {
+            background-color: #ef9a9a;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 6px 12px;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-eliminar:hover {
+                background-color: #e57373;
+                color: white;
+            }
+
+        .btn-detalles {
+            background-color: #4dd0e1;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 6px 12px;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-detalles:hover {
+                background-color: #26c6da;
+                color: white;
+            }
+
+        <style >
+        .btn-crear {
+            background-color: #81c784;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 6px 12px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-crear:hover {
+            background-color: #66bb6a;
+            color: white;
+        }
+
+        .btn-editar {
+            background-color: #ffca28;
+            color: #424242;
+            border: none;
+            border-radius: 8px;
+            padding: 6px 12px;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-editar:hover {
+                background-color: #ffb300;
+                color: white;
+            }
+
+        .btn-eliminar {
+            background-color: #ef9a9a;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 6px 12px;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-eliminar:hover {
+                background-color: #e57373;
+                color: white;
+            }
+
+        .btn-detalles {
+            background-color: #4dd0e1;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 6px 12px;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-detalles:hover {
+                background-color: #26c6da;
+                color: white;
+            }
+    </style>
+
+</head>
+<body>
+    <header class="d-flex justify-content-between align-items-center">
+        <h4 class="mb-0">SISTEMA WEB PARA LA GESTIÓN DE RECURSOS HUMANOS Y PAGO DE NÓMINA</h4>
+        @if (User.Identity.IsAuthenticated)
+        {
+            <div class="header-actions">
+                <span class="me-3"><i class="bi bi-person-circle"></i> @User.Identity.Name</span>
+                <a href="/Cuenta/CambiarContrasena" class="btn btn-outline-custom btn-sm me-2">Cambiar contraseña</a>
+                <a href="/Cuenta/CerrarSesion" class="btn btn-outline-custom btn-sm">Cerrar sesión</a>
+            </div>
+        }
+    </header>
+
+    <div id="main-layout" class="wrapper">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <nav class="sidebar">
+                <h5>Menú</h5>
+                <a href="/Inicio"><i class="bi bi-house-door"></i> Inicio</a>
+
+                <a class="d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#gestionesMenu" role="button" aria-expanded="false" aria-controls="gestionesMenu">
+                    <span><i class="bi bi-gear"></i> Gestiones</span>
+                    <i class="bi bi-chevron-down me-3"></i>
+                </a>
+                <div class="collapse ps-3" id="gestionesMenu">
+                    <a href="/Estados">Estados</a>
+                    <a href="/EstadoCivil">Estado Civil</a>
+                    <a href="/Roles">Roles</a>
+                    <a href="/TiposPermiso">Tipos de Permiso</a>
+                    <a href="/TiposHoraExtra">Tipos de Hora Extra</a>
+                    <a href="/Feriados">Feriados</a>
+                    <a href="/ISR">ISR</a>
+                    <a href="/TipoIncapacidades">Tipos de Incapacidad</a>
+                    <a href="/Departamentos">Departamentos</a>
+                    <a href="/Horarios">Horarios</a>
+                    <a href="/Puestos">Puestos</a>
+                    <a href="/Empleados">Empleados</a>
+                    <a href="/Usuarios">Usuarios</a>
+                    <a href="/Asistencia">Asistencia</a>
+                    <a href="/HorasExtras">Horas Extra</a>
+                    <a href="/Vacaciones">Vacaciones</a>
+                    <a href="/SolicitudesVacaciones">Solicitudes de Vacaciones</a>
+                    <a href="/Incapacidades">Incapacidades</a>
+                    <a href="/Aguinaldo">Aguinaldo</a>
+                    <a href="/Nomina">Nómina</a>
+                    <a href="/TipoLiquidacion">Tipo de Liquidación</a>
+                    <a href="/Liquidaciones">Liquidaciones</a>
+                    <a href="/Permisos">Permisos</a>
+                    <a href="/Bitacora">Bitácora</a>
+                </div>
+
+                <a href="/Reportes"><i class="bi bi-bar-chart-line"></i> Reportes</a>
+                <a href="/Seguridad"><i class="bi bi-shield-lock"></i> Seguridad</a>
+            </nav>
+        }
+
+        <main class="content">
+            <div class="page-template">
+                @RenderBody()
+            </div>
+        </main>
+    </div>
+
+    <footer class="text-center p-3">
+        <small>&copy; 2025 Smart Building Solutions - Todos los derechos reservados.</small>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

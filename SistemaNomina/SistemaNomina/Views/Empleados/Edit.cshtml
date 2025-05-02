@@ -1,0 +1,29 @@
+﻿@model SistemaNomina.Empleados
+
+@{
+    ViewBag.Title = "Editar Empleado";
+}
+
+<h2>Editar Empleado</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.id_empleado)
+        @Html.HiddenFor(model => model.fecha_creacion)
+
+        <!-- El resto del formulario es igual que Create.cshtml, solo cambia el título -->
+        <!-- Copia el mismo contenido de Create.cshtml aquí -->
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Guardar Cambios" class="btn btn-primary" />
+                @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-default" })
+            </div>
+        </div>
+    </div>
+}

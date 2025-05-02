@@ -1,0 +1,91 @@
+﻿@model SistemaNomina.Incapacidades
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Incapacidades</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha_inicio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha_inicio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha_fin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha_fin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.numero_boleta)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.numero_boleta)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dias_incapacidad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dias_incapacidad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha_registro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha_registro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Empleados.cedula)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Empleados.cedula)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Estados.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Estados.nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoIncapacidades.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TipoIncapacidades.nombre)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_incapacidad }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

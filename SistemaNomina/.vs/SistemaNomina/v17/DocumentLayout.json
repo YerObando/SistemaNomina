@@ -1,0 +1,371 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78457227-EEC5-4544-B7CE-C68137E4A1E6}|SistemaNomina\\SistemaNomina.csproj|c:\\users\\yerli\\source\\repos\\sistemanomina\\sistemanomina\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78457227-EEC5-4544-B7CE-C68137E4A1E6}|SistemaNomina\\SistemaNomina.csproj|solutionrelative:sistemanomina\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78457227-EEC5-4544-B7CE-C68137E4A1E6}|SistemaNomina\\SistemaNomina.csproj|C:\\Users\\yerli\\source\\repos\\SistemaNomina\\sistemanomina\\views\\empleados\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78457227-EEC5-4544-B7CE-C68137E4A1E6}|SistemaNomina\\SistemaNomina.csproj|solutionrelative:sistemanomina\\views\\empleados\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78457227-EEC5-4544-B7CE-C68137E4A1E6}|SistemaNomina\\SistemaNomina.csproj|C:\\Users\\yerli\\source\\repos\\SistemaNomina\\sistemanomina\\views\\empleados\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78457227-EEC5-4544-B7CE-C68137E4A1E6}|SistemaNomina\\SistemaNomina.csproj|solutionrelative:sistemanomina\\views\\empleados\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78457227-EEC5-4544-B7CE-C68137E4A1E6}|SistemaNomina\\SistemaNomina.csproj|C:\\Users\\yerli\\source\\repos\\SistemaNomina\\sistemanomina\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78457227-EEC5-4544-B7CE-C68137E4A1E6}|SistemaNomina\\SistemaNomina.csproj|solutionrelative:sistemanomina\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78457227-EEC5-4544-B7CE-C68137E4A1E6}|SistemaNomina\\SistemaNomina.csproj|C:\\Users\\yerli\\source\\repos\\SistemaNomina\\sistemanomina\\modelonomina.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78457227-EEC5-4544-B7CE-C68137E4A1E6}|SistemaNomina\\SistemaNomina.csproj|solutionrelative:sistemanomina\\modelonomina.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78457227-EEC5-4544-B7CE-C68137E4A1E6}|SistemaNomina\\SistemaNomina.csproj|C:\\Users\\yerli\\source\\repos\\SistemaNomina\\sistemanomina\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78457227-EEC5-4544-B7CE-C68137E4A1E6}|SistemaNomina\\SistemaNomina.csproj|solutionrelative:sistemanomina\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78457227-EEC5-4544-B7CE-C68137E4A1E6}|SistemaNomina\\SistemaNomina.csproj|C:\\Users\\yerli\\source\\repos\\SistemaNomina\\sistemanomina\\views\\empleados\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78457227-EEC5-4544-B7CE-C68137E4A1E6}|SistemaNomina\\SistemaNomina.csproj|solutionrelative:sistemanomina\\views\\empleados\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78457227-EEC5-4544-B7CE-C68137E4A1E6}|SistemaNomina\\SistemaNomina.csproj|C:\\Users\\yerli\\source\\repos\\SistemaNomina\\sistemanomina\\views\\empleados\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78457227-EEC5-4544-B7CE-C68137E4A1E6}|SistemaNomina\\SistemaNomina.csproj|solutionrelative:sistemanomina\\views\\empleados\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78457227-EEC5-4544-B7CE-C68137E4A1E6}|SistemaNomina\\SistemaNomina.csproj|C:\\Users\\yerli\\source\\repos\\SistemaNomina\\sistemanomina\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78457227-EEC5-4544-B7CE-C68137E4A1E6}|SistemaNomina\\SistemaNomina.csproj|solutionrelative:sistemanomina\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78457227-EEC5-4544-B7CE-C68137E4A1E6}|SistemaNomina\\SistemaNomina.csproj|C:\\Users\\yerli\\source\\repos\\SistemaNomina\\sistemanomina\\views\\puestos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78457227-EEC5-4544-B7CE-C68137E4A1E6}|SistemaNomina\\SistemaNomina.csproj|solutionrelative:sistemanomina\\views\\puestos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78457227-EEC5-4544-B7CE-C68137E4A1E6}|SistemaNomina\\SistemaNomina.csproj|C:\\Users\\yerli\\source\\repos\\SistemaNomina\\sistemanomina\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78457227-EEC5-4544-B7CE-C68137E4A1E6}|SistemaNomina\\SistemaNomina.csproj|solutionrelative:sistemanomina\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78457227-EEC5-4544-B7CE-C68137E4A1E6}|SistemaNomina\\SistemaNomina.csproj|C:\\Users\\yerli\\source\\repos\\SistemaNomina\\sistemanomina\\controllers\\puestoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78457227-EEC5-4544-B7CE-C68137E4A1E6}|SistemaNomina\\SistemaNomina.csproj|solutionrelative:sistemanomina\\controllers\\puestoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 40,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:24:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:25:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{80454082-9ab8-47d4-af23-82bf6739e2a9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:21:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:22:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:23:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{80454082-9ab8-47d4-af23-82bf6739e2a9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{80454082-9ab8-47d4-af23-82bf6739e2a9}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\SistemaNomina\\Views\\Empleados\\Create.cshtml",
+              "RelativeDocumentMoniker": "SistemaNomina\\Views\\Empleados\\Create.cshtml",
+              "ToolTip": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\SistemaNomina\\Views\\Empleados\\Create.cshtml",
+              "RelativeToolTip": "SistemaNomina\\Views\\Empleados\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T19:04:55.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\SistemaNomina\\Views\\Empleados\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SistemaNomina\\Views\\Empleados\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\SistemaNomina\\Views\\Empleados\\Delete.cshtml",
+              "RelativeToolTip": "SistemaNomina\\Views\\Empleados\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T19:21:32.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ModeloNomina.Context.cs",
+              "DocumentMoniker": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\SistemaNomina\\ModeloNomina.Context.cs",
+              "RelativeDocumentMoniker": "SistemaNomina\\ModeloNomina.Context.cs",
+              "ToolTip": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\SistemaNomina\\ModeloNomina.Context.cs",
+              "RelativeToolTip": "SistemaNomina\\ModeloNomina.Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:00:06.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\SistemaNomina\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SistemaNomina\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\SistemaNomina\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SistemaNomina\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAPwAAAAAAAAAAAAAAAkBAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T09:31:54.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Empleados.cs",
+              "DocumentMoniker": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\SistemaNomina\\Empleados.cs",
+              "RelativeDocumentMoniker": "SistemaNomina\\Empleados.cs",
+              "ToolTip": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\SistemaNomina\\Empleados.cs",
+              "RelativeToolTip": "SistemaNomina\\Empleados.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T21:50:13.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\SistemaNomina\\Views\\Empleados\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaNomina\\Views\\Empleados\\Index.cshtml",
+              "ToolTip": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\SistemaNomina\\Views\\Empleados\\Index.cshtml",
+              "RelativeToolTip": "SistemaNomina\\Views\\Empleados\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T19:03:56.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\SistemaNomina\\Views\\Empleados\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SistemaNomina\\Views\\Empleados\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\SistemaNomina\\Views\\Empleados\\Edit.cshtml",
+              "RelativeToolTip": "SistemaNomina\\Views\\Empleados\\Edit.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T19:06:18.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\SistemaNomina\\Views\\Empleados\\Details.cshtml",
+              "RelativeDocumentMoniker": "SistemaNomina\\Views\\Empleados\\Details.cshtml",
+              "ToolTip": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\SistemaNomina\\Views\\Empleados\\Details.cshtml",
+              "RelativeToolTip": "SistemaNomina\\Views\\Empleados\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T19:07:12.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PuestosController.cs",
+              "DocumentMoniker": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\SistemaNomina\\Controllers\\PuestosController.cs",
+              "RelativeDocumentMoniker": "SistemaNomina\\Controllers\\PuestosController.cs",
+              "ToolTip": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\SistemaNomina\\Controllers\\PuestosController.cs",
+              "RelativeToolTip": "SistemaNomina\\Controllers\\PuestosController.cs",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAkwPoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T21:39:35.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\SistemaNomina\\Views\\Usuarios\\Create.cshtml",
+              "RelativeDocumentMoniker": "SistemaNomina\\Views\\Usuarios\\Create.cshtml",
+              "ToolTip": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\SistemaNomina\\Views\\Usuarios\\Create.cshtml",
+              "RelativeToolTip": "SistemaNomina\\Views\\Usuarios\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T22:45:59.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\SistemaNomina\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "SistemaNomina\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\SistemaNomina\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "SistemaNomina\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAgwGQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T09:45:40.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\SistemaNomina\\Views\\Puestos\\Create.cshtml",
+              "RelativeDocumentMoniker": "SistemaNomina\\Views\\Puestos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\yerli\\source\\repos\\SistemaNomina\\SistemaNomina\\Views\\Puestos\\Create.cshtml",
+              "RelativeToolTip": "SistemaNomina\\Views\\Puestos\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T22:07:56.026Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+﻿@model IEnumerable<SistemaNomina.Permisos>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.horas)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.motivo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha_creacion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha_actualizacion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Empleados.cedula)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Estados.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Usuarios.usuario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TiposPermiso.nombre)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.fecha)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.horas)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.motivo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fecha_creacion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fecha_actualizacion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Empleados.cedula)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Estados.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Usuarios.usuario)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TiposPermiso.nombre)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id_permiso }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id_permiso }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id_permiso })
+        </td>
+    </tr>
+}
+
+</table>
