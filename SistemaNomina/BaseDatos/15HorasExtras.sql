@@ -1,0 +1,28 @@
+USE smartbuilding_rh;
+
+-- Tabla HorasExtras
+CREATE TABLE HorasExtras (
+  id_hora_extra INT IDENTITY(1,1) PRIMARY KEY,
+  id_empleado INT NOT NULL,
+  id_tipo INT NOT NULL,
+  fecha DATE NOT NULL,
+  hora_inicio TIME NOT NULL,
+  hora_fin TIME NOT NULL,
+  horas DECIMAL(4,2) NOT NULL,
+  valor_hora DECIMAL(12,2) NOT NULL,
+  recargo DECIMAL(5,2) NOT NULL,
+  total AS (valor_hora * horas * (1 + recargo/100)),
+  motivo TEXT NULL,
+  id_estado INT NOT NULL,
+  aprobado_por INT NULL,
+  fecha_aprobacion DATETIME NULL,
+  fecha_creacion DATETIME DEFAULT GETDATE(),
+  fecha_actualizacion DATETIME DEFAULT GETDATE(),
+  CONSTRAINT fk_horasextras_empleado FOREIGN KEY (id_empleado) REFERENCES Empleados (id_empleado),
+  CONSTRAINT fk_horasextras_tipo FOREIGN KEY (id_tipo) REFERENCES TiposHoraExtra (id_tipo),
+  CONSTRAINT fk_horasextras_aprobador FOREIGN KEY (aprobado_por) REFERENCES Usuarios (id_usuario),
+  CONSTRAINT fk_horasextras_estado FOREIGN KEY (id_estado) REFERENCES Estados (id_estado)
+);
+EXEC sp_addextendedproperty 'MS_Description', 'Registro de horas extras trabajadas por empleados', 'SCHEMA', 'dbo', 'TABLE', 'HorasExtras';
+EXEC sp_addextendedproperty 'MS_Description', 'Porcentaje adicional al valor hora', 'SCHEMA', 'dbo', 'TABLE', 'HorasExtras', 'COLUMN', 'recargo';
+EXEC sp_addextendedproperty 'MS_Description', 'Relación con catálogo de estados', 'SCHEMA', 'dbo', 'TABLE', 'HorasExtras', 'COLUMN', 'id_estado';
